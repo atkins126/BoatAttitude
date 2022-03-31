@@ -7,6 +7,8 @@ Delphi's *Gyroscope* sample app tries to do that, but does not quite gets there.
 
 Compiled with D10.3.3 and tested on Android and iOS.
 
+Oct/20: fixed issues with sensors with  D10.4.1  ( iOS and Android )
+
 ![app screenshot](BoatAttitudeShot.PNG)
 
 Tags: #Delphi #Firemonkey #Sensors #iOS #Android
@@ -78,9 +80,9 @@ Bottom line: use quaternion for setting object rotations.
 * DelphiWorlds Kastri-free - https://github.com/DelphiWorlds/KastriFree
 * FiremonkeySensorFusion - https://github.com/omarreis/FiremonkeySensorFusion 
 
-## Check this tiktok video:
-
-https://vm.tiktok.com/E2eQqP
+## tiktok videos:
+* BoatAttitude: https://vm.tiktok.com/E2eQqP
+* AirlinerAttitude w/ FiremonkeySensorFusion and TFlapLabel: https://www.tiktok.com/@omar_reis/video/6846360497550380294
 
 ## AirlinerAttitude
 AirlinerAttitude app (also in  this repository) is a similar sample app, this time featuring a airliner plane model.
@@ -90,4 +92,6 @@ Phone attitude sensors control:
 * otherwise, airplane pitch and roll same as phone's.
 
 ![app screenshot](AirlinerAttitudeShot.PNG)
+
+...
 
